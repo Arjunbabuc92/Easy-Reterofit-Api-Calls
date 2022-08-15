@@ -45,3 +45,5 @@ class MainActivity : AppCompatActivity() {
         }
     }
 }
+
+Now everything done. Thanks for using this library. if anything post it in issues
