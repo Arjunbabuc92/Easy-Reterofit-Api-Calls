@@ -1,4 +1,3 @@
-# Reterofit-Api-Call-Library
 Welcome developers for now we only have support for POST method with raw string. Will be updated with all methods asap
 
 to attach this module with your project first add jitpack.io dependency in your settings.gradle
@@ -45,3 +44,5 @@ class MainActivity : AppCompatActivity() {
         }
     }
 }
+
+Now everything done. Thanks for using this library. if anything post it in issues
