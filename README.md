@@ -1,10 +1,10 @@
-# Reterofit-Api-Call-Library
 Welcome developers for now we only have support for POST method with raw string. Will be updated with all methods asap
 
 to attach this module with your project first add jitpack.io dependency in your settings.gradle
 
 add it like this
 
+```
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
@@ -13,17 +13,21 @@ dependencyResolutionManagement {
         maven { url 'https://jitpack.io' }
     }
 }
+```
 
 then just add module dependency in your app.gradle
 
+```
 dependencies {
     implementation 'com.github.Arjunbabuc92:Easy-Reterofit-Api-Calls:1.0.3'
 }
+```
 
 done
 
 Now do your api calls like below
 
+```
 class MainActivity : AppCompatActivity() {
     val gson = Gson()
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -45,5 +49,6 @@ class MainActivity : AppCompatActivity() {
         }
     }
 }
+```
 
 Now everything done. Thanks for using this library. if anything post it in issues
