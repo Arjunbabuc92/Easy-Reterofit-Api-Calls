@@ -1,5 +1,11 @@
 Welcome developers for now we only have support for POST method with raw string. Will be updated with all methods asap
 
+as a prerequesit dont forget to add 
+```
+<uses-permission android:name="android.permission.INTERNET"/> 
+```
+in manifest
+
 to attach this module with your project first add jitpack.io dependency in your settings.gradle
 
 add it like this
