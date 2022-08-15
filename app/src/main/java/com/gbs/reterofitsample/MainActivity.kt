@@ -13,13 +13,13 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-//        val apiCalls = ApiCalls()
-//        val loginRequest = LoginRequest("1234567891@getnada.com","Ancy@1998")
-//        apiCalls.getJson(EndPoints.baseURL+EndPoints.loginEndPoint,gson.toJson(loginRequest),this){
-//            if(it.error==ERROR.NONE){
-//                val loginResponse = gson.fromJson(it.responseData, LoginResponse::class.java)
-//                Log.e("sample",loginResponse.toString())
-//            }
-//        }
+        val apiCalls = ApiCalls()
+        val loginRequest = LoginRequest("parameter 1","parameter 2")
+        apiCalls.getJson(EndPoints.baseURL+EndPoints.loginEndPoint,gson.toJson(loginRequest),this){
+            if(it.error==ERROR.NONE){
+                val loginResponse = gson.fromJson(it.responseData, LoginResponse::class.java)
+                Log.e("sample",loginResponse.toString())
+            }
+        }
     }
 }
