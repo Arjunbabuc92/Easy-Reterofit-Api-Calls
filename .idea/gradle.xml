@@ -11,7 +11,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/reterofit_network_calls" />
+            <option value="$PROJECT_DIR$/easy_reterofit_call" />
           </set>
         </option>
       </GradleProjectSettings>

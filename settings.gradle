@@ -15,5 +15,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Reterofit Sample"
 include ':app'
-include ':reterofit_network_calls'
-
+include ':easy_reterofit_call'
