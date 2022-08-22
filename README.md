@@ -25,7 +25,7 @@ then just add module dependency in your app.gradle
 
 ```
 dependencies {
-    implementation 'com.github.Arjunbabuc92:Easy-Reterofit-Api-Calls:1.0.3'
+    implementation 'com.github.Arjunbabuc92:Easy-Reterofit-Api-Calls:1.0.4'
 }
 ```
 
