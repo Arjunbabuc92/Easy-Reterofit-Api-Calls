@@ -27,6 +27,17 @@ dependencyResolutionManagement {
 }
 ```
 
+Comment this line in settings.gradle
+```
+repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+```
+
+Add these 2 lines in gradle.properties
+```
+android.enableJetifier=true
+android.useAndroidX=true
+```
+
 then just add module dependency in your app.gradle
 
 ```
@@ -39,6 +50,7 @@ done
 
 Now do your api calls like below
 
+POST API USING RAW JSON
 ```
 class MainActivity : AppCompatActivity() {
     val gson = Gson()
@@ -50,7 +62,7 @@ class MainActivity : AppCompatActivity() {
         //loading model class with values
         val loginRequest = LoginRequest("1234567891@getnada.com","Ancy@1998")
         //passing url, string value of request and context to getjson() method
-        apiCalls.getJson(EndPoints.baseURL+EndPoints.loginEndPoint,gson.toJson(loginRequest),this){ it->
+        apiCalls.getJsonUsingRawJsonRequest(EndPoints.baseURL+EndPoints.loginEndPoint,gson.toJson(loginRequest),this){ it->
             //callback when api call is finished. If error class will automatically handle it 
             if success response will be send back with ERROR.NONE value in it.error
             if(it.error==ERROR.NONE){
