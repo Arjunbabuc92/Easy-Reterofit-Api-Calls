@@ -75,4 +75,27 @@ class MainActivity : AppCompatActivity() {
 }
 ```
 
+POST API USING RAW JSON AND HEADERS
+
+```
+class MainActivity : AppCompatActivity() {
+    val gson = Gson()
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+        val apiCalls = ApiCalls()
+        val changePasswordRequest = ChangePasswordRequest("12345678","123456789","123456789")
+        //creating a hashmap of headers
+        val map: MutableMap<String, String> = HashMap()
+        map["userid"] = "101"
+        apiCalls.getJsonUsingRawJsonRequestAndHeader(EndPoints.baseURL+EndPoints.changePassword,gson.toJson(changePasswordRequest),this,map){
+            if(it.error== ERROR.NONE){
+                val changeResponse = gson.fromJson(it.responseData, ChangePasswordResponse::class.java)
+                Log.e("sample",changeResponse.toString())
+            }
+        }
+    }
+}
+```
+
 Now everything done. Thanks for using this library. if anything post it in issues
