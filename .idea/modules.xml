@@ -11,10 +11,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/easy_reterofit_call/Reterofit_Sample.easy_reterofit_call.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/easy_reterofit_call/Reterofit_Sample.easy_reterofit_call.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/easy_reterofit_call/Reterofit_Sample.easy_reterofit_call.main.iml" filepath="$PROJECT_DIR$/.idea/modules/easy_reterofit_call/Reterofit_Sample.easy_reterofit_call.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/easy_reterofit_call/Reterofit_Sample.easy_reterofit_call.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/easy_reterofit_call/Reterofit_Sample.easy_reterofit_call.unitTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/reterofit_network_calls/Reterofit_Sample.reterofit_network_calls.iml" filepath="$PROJECT_DIR$/.idea/modules/reterofit_network_calls/Reterofit_Sample.reterofit_network_calls.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/reterofit_network_calls/Reterofit_Sample.reterofit_network_calls.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/reterofit_network_calls/Reterofit_Sample.reterofit_network_calls.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/reterofit_network_calls/Reterofit_Sample.reterofit_network_calls.main.iml" filepath="$PROJECT_DIR$/.idea/modules/reterofit_network_calls/Reterofit_Sample.reterofit_network_calls.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/reterofit_network_calls/Reterofit_Sample.reterofit_network_calls.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/reterofit_network_calls/Reterofit_Sample.reterofit_network_calls.unitTest.iml" />
     </modules>
   </component>
 </project>

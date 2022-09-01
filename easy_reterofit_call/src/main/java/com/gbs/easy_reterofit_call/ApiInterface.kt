@@ -13,8 +13,7 @@ interface ApiInterface {
     @POST
     fun postApiWithHeader(
         @Url url: String,
-        @Header("user_id") user_id: String,
-        @Header("token") token: String,
+        @HeaderMap map: MutableMap<String, String>,
         @Body request: String,
     ): Call<String>
 }

@@ -63,15 +63,13 @@ class ApiCalls {
         url: String,
         request: String,
         context: Context,
-        userid:String,
-        token:String,
+        map: MutableMap<String, String>,
         completion: (DownloadedData) -> Unit
     ) {
         val data: Call<String> =
             apiInterface.postApiWithHeader(
                 url,
-                userid,
-                token,
+                map,
                 request
             )
         data.enqueue(object : Callback<String> {
